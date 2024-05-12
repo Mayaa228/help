@@ -1,0 +1,13 @@
+[Unit]
+Description=gpt-bot
+After=multi-user.target
+
+[Service]
+User=student
+Group=student
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 /home/student/help/botik.py
+
+[Install]
+WantedBy=multi-user.target
