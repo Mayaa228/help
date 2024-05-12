@@ -1,4 +1,4 @@
-[Uni]
+[Unit]
 Description=gpt-bot
 After=multi-user.target
 
